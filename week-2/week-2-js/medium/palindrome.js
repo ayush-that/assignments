@@ -4,7 +4,15 @@
 */
 
 function isPalindrome(str) {
-  return true;
+  let strnew = str.toLowerCase();
+  let arr = new Array();
+
+  for (let i = strnew.length; i >= 0; i--) {
+    arr.push(strnew[i]);
+  }
+  return arr.join("") == strnew;
 }
+
+console.log(isPalindrome("anaaaana"));
 
 module.exports = isPalindrome;
