@@ -1,3 +1,5 @@
 100xdevs Cohort 3 Assignments
 
-[bg-color changer](https://assignments-tau-lime.vercel.app/week-3/easy/bg-color-changer/solution/)
+[bg-color changer](https://assignments-tau-lime.vercel.app/week-3/easy/bg-color-changer/) <br>
+[quiz-app](https://assignments-tau-lime.vercel.app/week-3/easy/quiz-app/) <br>
+[form-builder](https://assignments-tau-lime.vercel.app/week-3/medium/Form-Builder/)
