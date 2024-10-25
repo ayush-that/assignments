@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.h1-quiz {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.quizDiv {
+    margin: auto;
+    width: 50%;
+    height: 350px;
+    width: 450px;
+    background-color: pink;
+    border-radius: 9px;
+    border: 2px solid black;
+}
+
+.answer-label {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.quizQues {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.submitButton {
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.submitButton:hover {
+    background-color: #F8F8FF;
+}
