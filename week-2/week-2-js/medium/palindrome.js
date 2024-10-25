@@ -13,6 +13,4 @@ function isPalindrome(str) {
   return arr.join("") == strnew;
 }
 
-console.log(isPalindrome("anaaaana"));
-
 module.exports = isPalindrome;

@@ -21,6 +21,5 @@ function isAnagram(str1, str2) {
 
   return arr1.sort().toString() == arr2.sort().toString();
 }
-console.log(isAnagram("hello", "elLoH"));
 
 module.exports = isAnagram;
