@@ -1,22 +1,22 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 // Connect to MongoDB
-mongoose.connect('your-mongodb-url');
+mongoose.connect("your-mongodb-url");
 
 // Define schemas
 
 const UserSchema = new mongoose.Schema({
-    // Schema definition here
+  // Schema definition here
 });
 
 const TodoSchema = new mongoose.Schema({
-    // Schema definition here
+  // Schema definition here
 });
 
-const User = mongoose.model('User', UserSchema);
-const Todo = mongoose.model('Todo', TodoSchema);
+const User = mongoose.model("User", UserSchema);
+const Todo = mongoose.model("Todo", TodoSchema);
 
 module.exports = {
-    User,
-    Todo
-}
+  User,
+  Todo,
+};
