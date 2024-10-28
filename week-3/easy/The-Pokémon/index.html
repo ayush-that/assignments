@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/pokeball.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Pokemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-pink-200">
+    <div class="flex items-center justify-center">
+        <div class="mt-10 font-black text-4xl">
+            <h1>The Pokémon</h1>
+        </div>
+    </div>
+    <div class="flex items-center justify-center">
+        <div class="h-auto w-auto bg-pink-300 mt-10 rounded-xl">
+            <form class="pt-5 pl-5 pr-5">
+                <label>Select Category of Pokemon: </label>
+                <select id="category">
+                    <option value="1">Normal</option>
+                    <option value="2">Fighting</option>
+                    <option value="3">Flying</option>
+                    <option value="4">Poison</option>
+                    <option value="5">Ground</option>
+                    <option value="6">Rock</option>
+                    <option value="7">Bug</option>
+                    <option value="8">Ghost</option>
+                    <option value="9">Steel</option>
+                    <option value="10">Fire</option>
+                    <option value="11">Water</option>
+                    <option value="12">Grass</option>
+                    <option value="13">Electric</option>
+                    <option value="14">Psychic</option>
+                    <option value="15">Ice</option>
+                    <option value="16">Dragon</option>
+                    <option value="17">Dark</option>
+                    <option value="18">Fairy</option>
+                </select> <br><br>
+                <label>Enter Number of Pokemon: </label>
+                <input id="number" type="number" min="1">
+            </form><br>
+            <div class="flex items-center justify-center mb-5">
+                <button onclick="generate()" class="bg-pink-400 px-4 py-2 rounded">Generate</button>
+            </div>
+        </div>
+    </div>
+    <div id="result" class="flex flex-wrap justify-center mt-9"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
