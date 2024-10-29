@@ -14,6 +14,11 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
+  const category = [];
+  if (transactions.category in category) {
+
+  }
+
   return [];
 }
 

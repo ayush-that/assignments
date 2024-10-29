@@ -8,21 +8,22 @@
 function countVowels(str) {
   // Your code here
   let vowels = 0;
+  strLow = str.toLowerCase();
 
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] == "a") {
+  for (let i = 0; i < strLow.length; i++) {
+    if (strLow[i] == "a") {
       vowels += 1;
     }
-    if (str[i] == "e") {
+    if (strLow[i] == "e") {
       vowels += 1;
     }
-    if (str[i] == "i") {
+    if (strLow[i] == "i") {
       vowels += 1;
     }
-    if (str[i] == "o") {
+    if (strLow[i] == "o") {
       vowels += 1;
     }
-    if (str[i] == "u") {
+    if (strLow[i] == "u") {
       vowels += 1;
     }
   }
